@@ -10,7 +10,8 @@ class Usuario
         if(is_numeric($_GET['pagina']))
         {
             $pagina = $_GET['pagina'];
-            $offset = 10 * $pagina;
+            $offset = 10
+             * $pagina;
         }
         else{
             $offset = '0';
