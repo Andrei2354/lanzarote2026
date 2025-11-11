@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^usuarios/modi/([0-9]+)$ ?seccion=usuarios&oper=modi&id=$1 [L]
+
+
+RewriteRule ^usuarios/ ?seccion=usuarios [L]
