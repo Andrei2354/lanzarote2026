@@ -5,42 +5,84 @@ $peliculas = [
         "director" => "Peter Jackson",
         "anio" => 2001,
         "genero" => "F",
-        "poster" => "Imagenes/SeñorDeLosAnillos.jpg"
+        "poster" => "img/peliculas/esdla.png"
     ],
     [
         "titulo" => "Inception",
         "director" => "Christopher Nolan",
         "anio" => 2010,
-        "genero" => "CF",
-        "poster" => "Imagenes/inception.jpeg"
+        "genero" => "C",
+        "poster" => "img/peliculas/origen.png"
     ],
     [
-        "titulo" => "Al filo del mañana",
-        "director" => "Doug Liman",
-        "anio" => 2020,
-        "genero" => "CF",
-        "poster" => "/Imagenes/Filodelamañana.jpg"
+        "titulo" => "El Señor de los Anillos: La Comunidad del Anillo",
+        "director" => "Peter Jackson",
+        "anio" => 2001,
+        "genero" => "F",
+        "poster" => "img/peliculas/esdla.png"
     ],
     [
-        "titulo" => "Top Gun: Maverick",
-        "director" => "Joseph Kosinski",
-        "anio" => 2020,
-        "genero" => "GA",
-        "poster" => "Imagenes/TopGunMaverick.jpg"
-    ],
-    [
-        "titulo" => "Oppenheimer",
+        "titulo" => "Inception",
         "director" => "Christopher Nolan",
-        "anio" => 2020,
-        "genero" => "B",
-        "poster" => "Imagenes/Openheimer.jpg"
+        "anio" => 2010,
+        "genero" => "C",
+        "poster" => "img/peliculas/origen.png"
     ],
     [
-        "titulo" => "Super Mario Bros. La película",
-        "director" => "Aaron Horvath",
-        "anio" => 2020,
-        "genero" => "A",
-        "poster" => "Imagenes/SuperMario.jpg"
+        "titulo" => "El Señor de los Anillos: La Comunidad del Anillo",
+        "director" => "Peter Jackson",
+        "anio" => 2001,
+        "genero" => "F",
+        "poster" => "img/peliculas/esdla.png"
     ],
+    [
+        "titulo" => "Inception",
+        "director" => "Christopher Nolan",
+        "anio" => 2010,
+        "genero" => "C",
+        "poster" => "img/peliculas/origen.png"
+    ],
+    [
+        "titulo" => "El Señor de los Anillos: La Comunidad del Anillo",
+        "director" => "Peter Jackson",
+        "anio" => 2001,
+        "genero" => "F",
+        "poster" => "img/peliculas/esdla.png"
+    ],
+    [
+        "titulo" => "Inception",
+        "director" => "Christopher Nolan",
+        "anio" => 2010,
+        "genero" => "C",
+        "poster" => "img/peliculas/origen.png"
+    ],
+    [
+        "titulo" => "El Señor de los Anillos: La Comunidad del Anillo",
+        "director" => "Peter Jackson",
+        "anio" => 2001,
+        "genero" => "F",
+        "poster" => "img/peliculas/esdla.png"
+    ],
+    [
+        "titulo" => "Inception",
+        "director" => "Christopher Nolan",
+        "anio" => 2010,
+        "genero" => "C",
+        "poster" => "img/peliculas/origen.png"
+    ],
+    [
+        "titulo" => "El Señor de los Anillos: La Comunidad del Anillo",
+        "director" => "Peter Jackson",
+        "anio" => 2001,
+        "genero" => "F",
+        "poster" => "img/peliculas/esdla.png"
+    ],
+    [
+        "titulo" => "Inception",
+        "director" => "Christopher Nolan",
+        "anio" => 2010,
+        "genero" => "C",
+        "poster" => "img/peliculas/origen.png"
+    ]
     // Agrega al menos 4 películas más con información similar
 ];
