@@ -4,6 +4,7 @@ inicio:Inicio
 portfolio:Portfolio
 acercade:Acerca de
 contacto:Contacto
+aulas:Aulas
 titulo:Listado
 tituloList:Listado
 titulocons:Consulta

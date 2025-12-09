@@ -8,6 +8,7 @@
                 <li><a href="#contact">{{ contacto }}</a></li>
                 <li><a href="/usuarios/">{{ usuarios }}</a></li>
                 <li><a href="/calendario/">{{ calendario }}</a></li>
+                <li><a href="/aulas/">{{ aulas }}</a></li>
             </ul>
         </nav>
 </header>

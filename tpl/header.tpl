@@ -6,14 +6,12 @@
     <title>Mi Página Web</title>
     
     <!-- CSS propios -->
+    
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/estilos.css">
     
     <!-- CSS de tu framework / template -->
     <link href="/assets/Impact-1.0.0/assets/css/main.css" rel="stylesheet">
-    
-    <!-- Si quieres usar Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 

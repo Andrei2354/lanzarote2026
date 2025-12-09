@@ -24,8 +24,6 @@
 
     
 
-    
-
 
     if (Campo::val('modo') != 'ajax')
     {
