@@ -58,4 +58,3 @@ INSERT INTO usuarios (nick, nombre, apellidos, email, password) VALUES
 ('rosa_b','Rosa','Benítez Ochoa','rosa.benitez@gmail.com','rosaB88');
 
 
-

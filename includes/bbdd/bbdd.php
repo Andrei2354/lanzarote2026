@@ -8,15 +8,15 @@
         private string $host     = '127.0.0.1';
         private string $usuario  = 'lanzarote';
         private string $password = '2354';
-        public string $baseDatos = 'lanzarote';
+        public  static string $baseDatos = 'lanzarote';
 
         private function __construct()
         {
             $this->conexion = new mysqli(
-                 hostname: $this->host
-                ,username: $this->usuario
-                ,password: $this->password
-                ,database: self::$baseDatos
+                 $this->host
+                ,$this->usuario
+                ,$this->password
+                ,self::$baseDatos
             );
 
             if($this->conexion->connect_error){
@@ -43,8 +43,6 @@
         
     }
 
-
-            
     
 
 

@@ -1,7 +1,5 @@
 <?php
-
     require "includes/general.php";
-
 
     if (Campo::val('modo') == 'ajax')
     {
@@ -19,6 +17,7 @@
     {
 
         echo Template::header(Idioma::lit('title_'.Campo::val('seccion')));
+        echo Template::nav();
         echo Template::seccion(Campo::val('seccion'));
     }
 
@@ -32,6 +31,4 @@
     {
         echo Template::footer(); 
     }
-    
-    
 ?>

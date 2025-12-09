@@ -1,6 +1,4 @@
 
-
-
 .contenido{
     margin-top:25px;
 }
@@ -13,3 +11,39 @@
 .card{
     margin-bottom:5px
 }
+
+span.error{
+    color:#ff0000;
+}
+input.error{
+    border-color:#ff0000;
+}
+.centrado{
+    text-align:center
+}
+.disabled{
+    background-color: #ebebeb;
+}
+
+#loading {
+    display:none;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+
+.modal-body .page-section{
+    padding: 0 !important;
+}
+
+/*
+Ventana emergente
+
+position: absolute;
+width: 400px;
+height: 500px;
+display: block;
+top: 200px;
+background: #ccc;
+left: 600px;
+*/

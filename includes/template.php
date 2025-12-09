@@ -2,7 +2,7 @@
 
     class Template
     {
-
+        
         public function __construct($templateDir='tpl')
         {
             $this->templateDir = rtrim($templateDir,'/');
@@ -27,9 +27,6 @@
             return $contenido;
         }
 
-        
-        
-
         static function header($titulo,$descripcion='',$author='1DAW')
         {
             $template = new Template();
@@ -39,13 +36,11 @@
                ,'description' => $descripcion
                ,'author'      => $author
             ]);
-
         }
 
 
         static function nav()
         {
-
             $template = new Template();
 
             return $template->render('navegacion',[
@@ -53,19 +48,17 @@
                ,'acercade'  => Idioma::lit('acercade')
                ,'contacto'  => Idioma::lit('contacto')
                ,'usuarios'  => Idioma::lit('usuarios')
+               ,'inicio'  => Idioma::lit('inicio')
+               ,'calendario'  => Idioma::lit('calendario')
             ]);
-
         }
 
 
         static function footer(){
-            
             $template = new Template();
 
             return $template->render('footer');
-
         }
-
 
         static function seccion($seccion)
         {
@@ -74,6 +67,10 @@
             {
                 case 'usuarios':
                     $contenido = UsuarioController::pintar();
+                break;
+
+                case 'calendario':
+                    $contenido = CalendarioController::pintar();
                 break;
 
                 default:
@@ -103,5 +100,6 @@
 
 
         }
+
 
     }

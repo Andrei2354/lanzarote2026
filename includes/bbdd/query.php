@@ -20,7 +20,7 @@
             }
 
             //Si es un Select, guardamos el número de registros
-
+            
             if(gettype($this->resultado) == "boolean")
                 $this->total = 1;
             elseif($this->resultado instanceof mysqli_result)

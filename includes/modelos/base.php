@@ -94,7 +94,6 @@ class Base
             WHERE id = '{$id}'
         ";
 
-
         $query = new Query($sql);
 
         return $query->total;
@@ -132,7 +131,7 @@ class Base
         }
 
 
-        if (!is_null($where) or !is_null($wheremayor))
+        if ($where != ''  || $wheremayor != '')
         {
             $sqlwhere = 'WHERE '. $where . $wheremayor;
         }
@@ -158,5 +157,17 @@ class Base
 
     }
 
+    function query_custom($sql)
+    {
+        $query = new Query($sql);
+
+        $resultado = [];
+        while($registro = $query->recuperar())
+        {
+            $resultado[] = $registro;
+        }
+
+        return $resultado;
+    }
 
 }

@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Male_Fashion Template">
-    <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Male-Fashion | Template</title>
+    <title>Mi Página Web</title>
+    
+    <!-- CSS propios -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    
+    <!-- CSS de tu framework / template -->
+    <link href="/assets/Impact-1.0.0/assets/css/main.css" rel="stylesheet">
+    
+    <!-- Si quieres usar Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <!-- Bootstrap Icons (para los iconos bi-*) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="Plantilla/malefashion-master/css/style.css" type="text/css">
-
-    <link href="/assets/plantilla/css/styles.css" rel="stylesheet" />
-    <link href="/css/estilos.css" rel="stylesheet" />
 </head>
-<body id="page-top">
+<body>

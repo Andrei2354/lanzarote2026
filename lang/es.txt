@@ -1,10 +1,11 @@
 hola:hola
 adios:adios
+inicio:Inicio
 portfolio:Portfolio
 acercade:Acerca de
 contacto:Contacto
 titulo:Listado
-titulolist:Listado
+tituloList:Listado
 titulocons:Consulta
 tituloalta:Alta
 titulomodi:Modificación
@@ -15,10 +16,12 @@ enviarmodi:Modificar
 enviarbaja:Baja
 enviarcons:Consulta
 nick:Nick
-placeholdernick:Pseudónimo
+pseudonimo:Pseudónimo
+placeholdernick:Inserta un nick...
 placeholdernombre:Inserta un nombre...
-placeholderapellidos:Inserta tus apellidos...
+placeholderapellidos:Inserta unos apellidos...
 placeholderemail:Inserta un E-mail válido...
+placeholdercalendario_curso:Selecciona el curso...
 password:Contraseña
 nombre:Nombre
 escribe_tu_nombre:Escribe tu nombre...
@@ -30,3 +33,4 @@ operacion_exito:Operación realizada con éxito
 usuarios:Usuarios
 volver:Volver
 title_usuarios:Gestión de Usuarios
+calendario:Calendario

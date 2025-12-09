@@ -7,4 +7,5 @@ class Usuario extends Base
         $this->tabla = 'usuarios';
     }
 
+
 }
